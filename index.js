@@ -11,10 +11,7 @@ import * as faceapi from 'face-api.js';
 const app = express();
 
 app.use(express.json());
-app.use(cors({
-  credentials: true,
-  origin: 'https://face-detector-hammad.netlify.app/'
-}));
+app.use(cors());
 app.use(cookieParser());
 
 dotenv.config();
