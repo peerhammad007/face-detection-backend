@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 app.use(cors({
   credentials: true,
-  origin: 'https://face-detection-backend-08wo.onrender.com'
+  origin: 'https://face-detector-hammad.netlify.app/'
 }));
 app.use(cookieParser());
 
